@@ -1,0 +1,11 @@
+/* Ma asigur ca toate paginile ocupa minim toata inaltimea ecranului */
+
+.Layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.Layout main {
+    flex: 1;
+    text-align: center;
+}
